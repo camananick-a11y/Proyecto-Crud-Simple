@@ -3,6 +3,7 @@
 Sistema de gestión para la Botica NovaSalud, desarrollado con Django REST Framework y base de datos en Supabase (PostgreSQL).
 
 ## 📌 Tecnologías Utilizadas
+---
 🐍 Django 6+
 ⚡ Django REST Framework
 🔐 SimpleJWT (Autenticación)
