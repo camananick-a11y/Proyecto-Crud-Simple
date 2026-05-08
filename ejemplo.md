@@ -2,7 +2,7 @@
 
 Sistema de gestión para la Botica NovaSalud, desarrollado con Django REST Framework y base de datos en Supabase (PostgreSQL).
 
-📌 Tecnologías Utilizadas
+## 📌 Tecnologías Utilizadas
 🐍 Django 6+
 ⚡ Django REST Framework
 🔐 SimpleJWT (Autenticación)
@@ -25,16 +25,6 @@ El sistema está sincronizado con las siguientes tablas en el esquema `public` d
 | Tabla | Descripción | Columnas Clave |
 | :--- | :--- | :--- |
 | **`cliente`** | Base de datos de clientes con información de contacto y documentos. | `id_cliente`, `nombre`, `tipo_documento`, `numero_documento`, `correo`, `telefono` |
-
-### 💊 Inventario y Medicamentos
-Inventario
-Tabla	Descripción
-medicamento	Catálogo principal de productos
-stock_medicamento	Control de stock en tiempo real
-categoria	Clasificación de medicamentos
-laboratorio	Fabricantes
-presentacion	Forma del medicamento
-unidad	Unidad de medida
 
 ### 💊 Inventario y Medicamentos
 | Tabla | Descripción | Columnas Clave |
